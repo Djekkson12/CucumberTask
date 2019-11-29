@@ -12,7 +12,6 @@ import static util.Driver.getDriver;
 
 public class OpenCartPage extends Abstract {
 
-
     public static void EnterLogin(String username) {
         getDriver().findElement(By.id("input-email")).sendKeys(username);
     }

@@ -12,6 +12,8 @@ public class Driver {
     public static org.openqa.selenium.WebDriver driver = null;
     private static Properties properties = null;
 
+
+
     static {
         try {
             properties = new Properties();
