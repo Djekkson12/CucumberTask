@@ -5,6 +5,7 @@ import cucumber.api.java.Before;
 import util.Driver;
 
 public class BeforeAfterSteps {
+
     @Before
     public void before() {
         Driver.startDriver();

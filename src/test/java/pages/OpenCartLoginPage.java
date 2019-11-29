@@ -12,7 +12,6 @@ import static util.Driver.getDriver;
 
 public class OpenCartLoginPage extends Abstract {
 
-
     @FindBy(xpath = "//input[contains(@class, 'btn btn-primary')]")
     private static WebElement pressLoginButon;
     @FindBy(xpath = "//*[@id=\"content\"]/h2[1]")

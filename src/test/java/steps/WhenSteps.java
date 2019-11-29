@@ -9,6 +9,8 @@ import pages.OpenCartPage;
 public class WhenSteps {
 
 
+
+
     @And("^User provides username as \"([^\"]*)\" and password as \"([^\"]*)\"$")
     public void iProvideUsernameAsAndPasswordAs(String username, String password) throws Exception {
         OpenCartPage.EnterLogin(username);
